@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Hultagram Feed</h1>
+
+    <!-- Loop through all posts -->
+    {% for post in posts %}
+    <div class="post">
+        <img src="{{ url_for('static', filename='uploads/' + post.image_filename) }}" alt="Post Image">
+        <p><strong>{{ post.caption }}</strong></p>
+        <p>{{ post.likes }} likes</p>
+
+        <!-- Like Button -->
+        <form action="{{ url_for('like_post', post_id=post.id) }}" method="post">
+            <button type="submit">❤️ Like</button>
+        </form>
+
+        <!-- View Post Link -->
+        <a href="{{ url_for('post_detail', post_id=post.id) }}">View Post</a>
+    </div>
+    {% endfor %}
+
+    <a href="{{ url_for('create_post') }}">➕ Create a New Post</a>
+{% endblock %}
