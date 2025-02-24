@@ -7,7 +7,7 @@ Useful links:
 * [Template Designer](https://jinja.palletsprojects.com/en/stable/templates/)
 * [Bootstrap Forms](https://getbootstrap.com/docs/5.3/forms/overview/#overview)
 
-A working vevrsion can be found here:
+A working version can be found here:
 * [https://hultagram.fly.dev/](https://hultagram.fly.dev/)
 
 Forking and cloning repositories into your own account
