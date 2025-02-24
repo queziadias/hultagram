@@ -9,3 +9,7 @@ Useful links:
 
 A working vevrsion can be found here:
 * [https://hultagram.fly.dev/](https://hultagram.fly.dev/)
+
+Forking and cloning repositories into your own account
+* [https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop
+](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop)
